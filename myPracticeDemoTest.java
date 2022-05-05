@@ -5,7 +5,7 @@ import org.junit.*;
 public class myPracticeDemoTest {
     @Test
     public void addition() {
-        assertEquals(2, myPracticeDemo.add(1,2)); 
-        // failing test
+        assertEquals(2, myPracticeDemo.add(1,1)); 
+        // passing test
     }
 }
